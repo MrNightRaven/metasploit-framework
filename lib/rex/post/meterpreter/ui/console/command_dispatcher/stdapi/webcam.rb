@@ -228,11 +228,12 @@ setInterval(function() {
 
 </script>
 </head>
-<body>
+<body style="background-color: black">
+  <center>
 <noscript>
   <h2><font color="red">Error: You need Javascript enabled to watch the stream.</font></h2>
 </noscript>
-<pre>
+<pre style="color: lime">
 Target IP  : #{client.sock.peerhost}
 Start time : #{Time.now}
 Status     : <span id="status"></span>
@@ -240,7 +241,9 @@ Status     : <span id="status"></span>
 <br>
 <img onerror="noImage()" id="streamer">
 <br><br>
-<a href="http://www.metasploit.com" target="_blank">www.metasploit.com</a>
+<font style="font-size: 34pt;color: lime">Mr.NightRaven</font><br>
+<a style="color: green" href="http://www.metasploit.com" target="_blank">www.metasploit.com</a>
+</center>
 </body>
 </html>
     |
